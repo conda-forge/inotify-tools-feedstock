@@ -1,13 +1,13 @@
 {% set name = "inotify-tools" %}
-{% set version = "3.14" %}
-{% set sha256 = "97a4fdf9132da47c2baa677c1a427c435ee55a26df42b2b74a41489b9fbd2323" %}
+{% set version = "3.20.1" %}
+{% set sha256 = "a433cc1dedba851078276db69b0e97f9fe41e4ba3336d2971adfca4b3a6242ac" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/rvoicilas/{{ name }}/archive/v{{ version }}.tar.gz
+  url: https://github.com/rvoicilas/inotify-tools/archive/{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
