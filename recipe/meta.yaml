@@ -1,6 +1,6 @@
 {% set name = "inotify-tools" %}
-{% set version = "3.20.2" %}
-{% set sha256 = "5ef0519934ac99f58c217fce259832a4ed51e25ded64c8aaf1149791b2c9b2c7" %}
+{% set version = "3.20.2.2" %}
+{% set sha256 = "770fb1d94ace659f975d7494e3ab8b421a6aab930b9c37c7c290ab5280abb7b8" %}
 
 package:
   name: {{ name|lower }}
