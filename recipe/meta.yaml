@@ -1,6 +1,6 @@
 {% set name = "inotify-tools" %}
-{% set version = "3.20.2" %}
-{% set sha256 = "5ef0519934ac99f58c217fce259832a4ed51e25ded64c8aaf1149791b2c9b2c7" %}
+{% set version = "3.21.9.0" %}
+{% set sha256 = "88bf1ac58ea25225e846dbe7409727548de0546d79f24968905ac53f4e9a97a1" %}
 
 package:
   name: {{ name|lower }}
@@ -31,7 +31,7 @@ about:
   license: GPL-2.0
   license_family: GPL
   license_file: COPYING
-  summary: 'This is a package of some commandline utilities relating to inotify.'
+  summary: This is a package of some commandline utilities relating to inotify.
   description: |
     The general purpose of this package is to allow inotify's features to be
     used from within shell scripts.
