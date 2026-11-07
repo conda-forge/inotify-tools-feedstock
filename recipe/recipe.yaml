@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "3.20.2"
+  version: "4.26.272"
 
 package:
   name: inotify-tools
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://github.com/rvoicilas/inotify-tools/archive/${{ version }}.tar.gz
-  sha256: 5ef0519934ac99f58c217fce259832a4ed51e25ded64c8aaf1149791b2c9b2c7
+  sha256: 1572c72bf4113261aa0b148bddf5323e5d12b6f5a4b5ab4e1478a5d108f9e464
 
 build:
-  number: 1
+  number: 0
   skip:
     - not linux
 
